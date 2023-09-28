@@ -23,13 +23,13 @@ Before you start, make sure you have the following programs installed:
 1. Open a command prompt (terminal) and navigate to the project folder:
 
 ```sh
-   cd/path/to/project
+cd/path/to/project
 ```
 
 2. Install all necessary dependencies using npm:
 
 ```sh
-   npm install
+npm install
 ```
 
 #### Launch
@@ -48,7 +48,7 @@ Then use:
 Then enter in terminal:
 
 ```sh
-  npm run watch
+npm run watch
 ```
 
 This will start a Gulp task that will monitor changes to the files and reload the project if necessary.
