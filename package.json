@@ -5,8 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build": "npm start",
-    "watch": "npm run start"
+    "start": "gulp",
+    "watch": "gulp watch"
   },
   "keywords": [],
   "author": "",

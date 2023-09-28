@@ -22,24 +22,47 @@ Before you start, make sure you have the following programs installed:
 
 1. Open a command prompt (terminal) and navigate to the project folder:
 
-   ```sh
-   cd /path/to/project
-   ```
+```sh
+   cd/path/to/project
+```
 
 2. Install all necessary dependencies using npm:
 
+```sh
    npm install
+```
 
 #### Launch
 
 1.  Start the project using Gulp:
 
-    npm start
+```sh
+npm start
+```
 
-    This will start a Gulp task that will monitor changes to the files, compile them, and reload the project if necessary.
+This will create a build folder to compile files.
+Then use:
+
+- ctrl^C - Y
+
+Then enter in terminal:
+
+```sh
+  npm run watch
+```
+
+This will start a Gulp task that will monitor changes to the files and reload the project if necessary.
 
 2.  Open your browser and go to:
 
-    http://localhost:8080
+http://localhost:8080
 
-    Your project is now running locally and ready to use.
+Your project is now running locally and ready to use.
+
+```
+
+```
+
+```
+
+```
